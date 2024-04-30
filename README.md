@@ -11,6 +11,8 @@ OpenCV provides several methods to perform background subtraction, one of the po
 
 4. BackgroundSubtractorLSBP: Local SVD Binary Pattern (LSBP) is a local texture-based method for background subtraction. It uses local binary pattern (LBP) and singular value decomposition (SVD) to model the background texture and subtract it from the current frame.
 
+5. BackgroundSubtractorCNT: Count-based Non-parametric Background Subtraction. This method is particularly useful for scenarios with highly dynamic backgrounds or scenes with frequent illumination changes.
+
 
 
 # Reference 
