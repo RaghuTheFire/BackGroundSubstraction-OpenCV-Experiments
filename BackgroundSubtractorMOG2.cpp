@@ -30,7 +30,7 @@ int main(int argc, char * argv[])
   Ptr < BackgroundSubtractor > pBackSub;
   pBackSub = createBackgroundSubtractorMOG2();
 
-  VideoCapture capture("768x576.avi");
+  VideoCapture capture("DemoBackSubstract.avi");
   if (!capture.isOpened()) 
   {
     //error in opening the video input
