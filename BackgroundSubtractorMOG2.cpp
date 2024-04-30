@@ -29,7 +29,6 @@ int main(int argc, char * argv[])
   //create Background Subtractor objects
   Ptr < BackgroundSubtractor > pBackSub;
   pBackSub = createBackgroundSubtractorMOG2();
-  //  pBackSub = createBackgroundSubtractorKNN();
 
   VideoCapture capture("768x576.avi");
   if (!capture.isOpened()) 
