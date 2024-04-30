@@ -13,6 +13,8 @@ OpenCV provides several methods to perform background subtraction, one of the po
 
 5. BackgroundSubtractorCNT: Count-based Non-parametric Background Subtraction. This method is particularly useful for scenarios with highly dynamic backgrounds or scenes with frequent illumination changes.
 
+6. BackgroundSubtractorGSOC: Background Subtraction by Global and Local Sparse Optimization Consistency and was introduced as a part of the Google Summer of Code (GSOC) program.This algorithm aims to improve background subtraction performance by utilizing global and local sparse optimization techniques to achieve consistency across frames. It's particularly effective in scenarios where the background may have dynamic changes or when dealing with complex scenes.
+
 
 
 # Reference 
